@@ -26,7 +26,7 @@ public class ExtraCredit {
         ExtraCredit.ending(tc);
         in.close();
     }
-
+     //my functions (I will not fix them if you play with them) 
      public static boolean check(int a , int b, int c, int x , int y , int z){
         int p = a * b * c, s = a + b + c;
         if((p == x * y * z) && (s == x + y + z)){
@@ -56,4 +56,4 @@ public class ExtraCredit {
             break;
         }
     }
-    }
+}
