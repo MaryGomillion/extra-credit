@@ -10,5 +10,5 @@
 # a b and c should be the random varibles
 # d f and g should be the users inputs
 # it will return a statment saying if you were correct or not
-# if you are bad at the guessing then you can have "debugging lines" - print statments that bring each random number
+# if you are bad at guessing then you can have "debugging lines" - print statments that bring each random number
 # once done it will return your results
