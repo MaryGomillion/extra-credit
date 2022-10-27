@@ -36,8 +36,8 @@ public class ExtraCredit {
             return false;
         }
     }
-    public static void ending(int tc){
-        System.out.println("you got " + tc + " / 3 correct");
+    public static void ending(int cc){
+        System.out.println("you got " + cc + " / 3 correct");
         switch (tc){
             case 0:
             System.out.println("try harder next time");
