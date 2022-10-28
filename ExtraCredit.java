@@ -9,16 +9,23 @@ public class ExtraCredit {
             System.out.println("round "+ elem + " out of 3");
             //start coding in the box
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-            
-            
-            
+int a=(int)(Math.random()*10)+1;
+int b=(int)(Math.random()*10)+1;
+int c=(int)(Math.random()*10)+1;
+int PRODUCT=a*b*c;
+int SUM=a+b+c;
+System.out.println("The product of the 3 numbers is:" + PRODUCT);
+System.out.println("The sum of the 3 numbers is:" + SUM);
+System.out.println("Guess the three numbers" + SUM);
+System.out.println(""+a+b+c);
+int x=in.nextInt();
+int y=in.nextInt();
+int z=in.nextInt();}}}
             
             
             
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            if(ExtraCredit.check()){ // fill the check() with the correct varibles
+/*            if(ExtraCredit.check()){ // fill the check() with the correct varibles
             // DO NOT TOUCH ANYTHING BELOW THIS
                 tc++; 
             }
@@ -56,4 +63,4 @@ public class ExtraCredit {
             break;
         }
     }
-}
+}*/
